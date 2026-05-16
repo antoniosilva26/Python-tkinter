@@ -13,9 +13,6 @@ class Configs():
         BotaoCancelar = Button( text="Cancelar")
         BotaoCadastro.place(x=210, y=300)
         BotaoCancelar.place(x=210, y=350)
-        text = Text(janela)
-        text.insert(INSERT, "Eae")
-        text.pack()
 
 class Aplication():
     def __init__(self):
